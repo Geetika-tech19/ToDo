@@ -1,0 +1,42 @@
+body{
+   background-color: 	#778899;
+}
+
+h2{
+    text-align: center;
+    margin-top: 5 px;;
+    font-size: 3em;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards ;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.button{
+    background-color: 	#778899;
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    height: 25%;
+    width: 25%;
+    font-size: 3em;
+    background-color: 	#3f6184;
+    color: #323a45;
+    margin: 15px;
+    margin-top: 18%;
+}
+.btn:hover{
+    height: 35%;
+    width: 35%;
+    font-size:4em ;
+}
